@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    -webkit-text-fill-color: rgb(131, 131, 128);
+}
+
+.container2{
+    margin:25px;
+    border:3px solid blue;
+
+}
+
+.container{
+    margin:25px;
+    border:3px solid whitesmoke;
+
+}
+.position{
+    position:fixed /* Ajustado al contenido*/
+/*
+    top: 50px;
+    left:50px;
+    right: 50px;
+    bottom:50px;
+*/
+}
+/*
+.position {
+    /* Static es su valor default y no se ve afectado por top,left,right,bottom */
+    /* Relative modifica a partir de su posicion original/natural */
+   /* Fixed modifica a partir del viewport = la pantalla que ve el usuario. No el tamaño del sitio web */
+
+    position: absolute;
+     bottom: 50px; 
+    /* top: 50px; */
+    /* right: 50px; */
+    /* left: 50px; */
+}
+*/
+/* Sticky posiciona el elemento para que siempre este disponible en el viewport. De forma independiente de los scroll */
